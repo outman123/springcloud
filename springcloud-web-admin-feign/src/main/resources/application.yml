@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: springcloud-web-admin-feign
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    encoding: utf-8
+    servlet:
+      content-type: text/html
+
+server:
+  port: 8111
+
+feign:
+  hystirx:
+    enabled: true
+#eureka 基本信息配置
+eureka:
+  client:
+    seruviceUrl:
+      defaultZone: http://localhost:8100/eureka/
