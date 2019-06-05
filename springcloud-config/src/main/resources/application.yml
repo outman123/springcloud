@@ -6,10 +6,10 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/funtl/spring-cloud-netflix-itoken/tree/master/itoken-config-respo/
+          uri: https://github.com/outman123/springcloud/config/
           search-paths: respo
-          username:
-          password:
+          username: outman123
+          password: zZ681476851
 
 #一般默认8888
 server:
