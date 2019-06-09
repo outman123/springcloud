@@ -6,8 +6,8 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/outman123/springcloud/tree/master/config.git
-          search-paths: respo
+          uri: https://github.com/outman123/springcloud.git 
+          search-paths: tree/master/config/respo
           username: outman123
           password: zZ681476851
 
