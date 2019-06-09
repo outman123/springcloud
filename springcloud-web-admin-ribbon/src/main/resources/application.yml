@@ -1,17 +1,8 @@
 spring:
-  application:
-    name: springcloud-web-admin-ribbon
-  thymeleaf:
-    cache: false
-    mode: LEGACYHTML5
-    encoding: utf-8
-    servlet:
-      content-type: text/html
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: web-admin-ribbon
+      label: master
+      profile: dev
 
-server:
-  port: 8110
-#eureka 基本信息配置
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8100/eureka/
