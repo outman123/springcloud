@@ -9,7 +9,7 @@ spring:
       content-type: text/html
 
 server:
-  port: 8110
+  port: 8111
 #eureka 基本信息配置
 eureka:
   client:
