@@ -9,7 +9,7 @@ spring:
       content-type: text/html
 
 server:
-  port: 8111
+  port: 8115
 
 feign:
   hystirx:
