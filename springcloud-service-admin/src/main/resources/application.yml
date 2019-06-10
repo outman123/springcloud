@@ -1,7 +1,8 @@
 spring:
   application:
     name: springcloud-service-admin
-
+  zipkin:
+    base-url: http://localhost:8120
 server:
   port: 8101
 
