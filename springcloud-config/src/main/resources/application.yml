@@ -10,6 +10,8 @@ spring:
           search-paths: config/respo
           username:
           password:
+  zipkin:
+    base-url: http://localhost:8120
 
 #一般默认8888
 server:
