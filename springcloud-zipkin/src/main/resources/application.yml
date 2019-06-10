@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: springcloud-zipkin
+
+
+#一般默认8888
+server:
+  port: 8120
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8100/eureka/
+
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
