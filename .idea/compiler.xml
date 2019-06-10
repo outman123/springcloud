@@ -11,6 +11,7 @@
         <module name="springcloud-service-admin" />
         <module name="springcloud-web-admin-feign" />
         <module name="springcloud-web-admin-ribbon" />
+        <module name="springcloud-zipkin" />
         <module name="springcloud-zuul" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="springcloud-service-admin" target="1.8" />
       <module name="springcloud-web-admin-feign" target="1.8" />
       <module name="springcloud-web-admin-ribbon" target="1.8" />
+      <module name="springcloud-zipkin" target="1.8" />
       <module name="springcloud-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -33,6 +35,7 @@
       <module name="springcloud-service-admin" options="-parameters" />
       <module name="springcloud-web-admin-feign" options="-parameters" />
       <module name="springcloud-web-admin-ribbon" options="-parameters" />
+      <module name="springcloud-zipkin" options="-parameters" />
       <module name="springcloud-zuul" options="-parameters" />
     </option>
   </component>

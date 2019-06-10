@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud-service-admin/springcloud-service-admin.iml" filepath="$PROJECT_DIR$/springcloud-service-admin/springcloud-service-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-web-admin-feign/springcloud-web-admin-feign.iml" filepath="$PROJECT_DIR$/springcloud-web-admin-feign/springcloud-web-admin-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-web-admin-ribbon/springcloud-web-admin-ribbon.iml" filepath="$PROJECT_DIR$/springcloud-web-admin-ribbon/springcloud-web-admin-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zipkin/springcloud-zipkin.iml" filepath="$PROJECT_DIR$/springcloud-zipkin/springcloud-zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-zuul/springcloud-zuul.iml" filepath="$PROJECT_DIR$/springcloud-zuul/springcloud-zuul.iml" />
     </modules>
   </component>
